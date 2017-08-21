@@ -10,9 +10,9 @@ function randomNumber() {
     "Are you from Starbucks? Because I like you a latte.",
     "Is your name Wi-fi? Because I'm really feeling a connection.",
     "Are you from China? Because I'm China get your number."
-    ];
+    ]; //created an array of pick up lines//
   
-  var x = Math.floor(Math.random() * 10);
+  var x = Math.floor(Math.random() * 10); //generated a random number and saved it as a variable//
 
-  window.alert(pickUpLines[x]);
+  window.alert(pickUpLines[x]); //made a pick up line appear on screen//
 }
